@@ -1,4 +1,4 @@
-RUNNING CONFLUENTE KAFKA 5.3
+RUNNING KAFKA CONFLUENT 5.3
 ---------------------------------------------------------------------
 
 
