@@ -107,3 +107,23 @@ bin/kafka-console-consumer --topic topic-example --bootstrap-server localhost:90
 ```
 
 ---------------------------------------------------------------------
+
+**Running schema registry**
+
+```
+
+bin/schema-registry-start etc/schema-registry/schema-registry.properties
+
+
+```
+
+The following API call lists all schema subjects:
+
+```
+
+curl -X GET http://localhost:8081/subjects
+
+
+```
+
+---------------------------------------------------------------------
