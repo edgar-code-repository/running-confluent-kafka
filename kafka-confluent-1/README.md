@@ -28,7 +28,7 @@ bin/kafka-server-start etc/kafka/server-2.properties
 
 ---------------------------------------------------------------------
 
-**Creating and listing topics in Kafka**
+**Creating, listing and describing topics in Kafka**
 
 This command allows you to create a topic in Kafka called "topic-example":
 
@@ -54,6 +54,14 @@ __confluent.support.metrics
 __consumer_offsets
 _schemas
 topic-example
+
+```
+
+Describing topic "topic-example":
+
+```
+
+bin/kafka-topics --describe --topic topic-example --bootstrap-server http://localhost:9092
 
 ```
 
